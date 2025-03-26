@@ -19,7 +19,7 @@ echo
 case "$REPLY" in
     [Yy]) 
         echo "Installing..."
-        sudo pacman -S blackarch-webapp blackarch-proxy blackarch-disassembler blackarch-networking blackarch-forensic blackarch-crypto blackarch-wireless blackarch-binary blackarch-reversing blackarch-malware blackarch-wordlist blackarch-decompiler blackarch-debugger blackarch-stego
+        sudo pacman -S blackarch-webapp blackarch-proxy blackarch-disassembler blackarch-networking blackarch-forensic blackarch-crypto blackarch-wireless blackarch-binary blackarch-reversing blackarch-malware blackarch-wordlist blackarch-debugger blackarch-stego
         # yes action
         ;;
     [Nn])
